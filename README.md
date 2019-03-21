@@ -4,7 +4,6 @@
 	<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
 	<img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
-	<a href="https://requires.io/github/bacon-delight/philips-wsr-server/requirements/?branch=master"><img src="https://requires.io/github/bacon-delight/philips-wsr-server/requirements.svg?branch=master" alt="Requirements Status" /></a>
 	<img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
 	<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/bacon-delight/philips-wsr-server.svg?label=Open%20Issues&style=for-the-badge">
 	<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/bacon-delight/philips-wsr-server.svg?label=Closed%20Issues&style=for-the-badge">
@@ -34,7 +33,7 @@
 [View Latest Release](https://philips-wsr-server.herokuapp.com/graphql)
 
 ## Dependencies
-Click to visit and download the dependencies
+<a href="https://requires.io/github/bacon-delight/philips-wsr-server/requirements/?branch=master"><img src="https://requires.io/github/bacon-delight/philips-wsr-server/requirements.svg?branch=master" alt="Requirements Status" /></a>
 
 * [Node](https://nodejs.org/en/)
 * [Nodemon](https://nodemon.io/) (Optional, but recommended)
