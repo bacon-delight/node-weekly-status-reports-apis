@@ -9,6 +9,9 @@ const app = express();
 //Allow Cross-Origin Requests
 app.use(cors());
 
+//Deploy Port
+const PORT = process.env.PORT || 4001;
+
 mongoose.connect('mongodb+srv://bacon:bacon@cluster0-ysvqj.mongodb.net/philips-wsr?retryWrites=true', {
 	useNewUrlParser: true
 });
@@ -27,6 +30,6 @@ app.use('/graphql', graphqlHTTP({
 	graphiql: true
 }));
 
-app.listen(4001, () => {
-	console.log('Listening for requests on Port 4001');
+app.listen(PORT, () => {
+	console.log('Listening for requests on Port:' + PORT);
 });
