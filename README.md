@@ -1,7 +1,30 @@
 # Weekly Status Reports Application Server
 
-### Preview in GitHub Pages
-[View Latest Release](https://bacon-delight.github.io/philips-wsr-server/)
+<p align="center">
+	<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+	<img alt="GitHub repo size in bytes" src="https://img.shields.io/github/repo-size/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+	<img alt="Requires.io" src="https://img.shields.io/requires/github/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+	<img alt="GitHub issues" src="https://img.shields.io/github/issues-raw/bacon-delight/philips-wsr-server.svg?label=Open%20Issues&style=for-the-badge">
+	<img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed-raw/bacon-delight/philips-wsr-server.svg?label=Closed%20Issues&style=for-the-badge">
+	<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr-raw/bacon-delight/philips-wsr-server.svg?label=Pull%20Requests%20%28Open%29&style=for-the-badge">
+	<img alt="GitHub closed pull requests" src="https://img.shields.io/github/issues-pr-closed-raw/bacon-delight/philips-wsr-server.svg?label=Pull%20Requests%20%28Closed%29&style=for-the-badge">
+</p>
+
+### Latest Releases
+<p>
+	<img alt="GitHub release" src="https://img.shields.io/github/release-pre/bacon-delight/philips-wsr-server.svg?label=Pre%20Release&style=for-the-badge">
+	<img alt="GitHub release" src="https://img.shields.io/github/release/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+</p>
+
+### Langauge Details
+<p>
+	<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/bacon-delight/philips-wsr-server.svg?color=%23f45342&style=for-the-badge">
+	<img alt="GitHub language count" src="https://img.shields.io/github/languages/count/bacon-delight/philips-wsr-server.svg?style=for-the-badge">
+</p>
+
+### Preview in Heroku
+[View Latest Release](https://philips-wsr-server.herokuapp.com/graphql)
 
 ## Dependencies
 Click to visit and download the dependencies
