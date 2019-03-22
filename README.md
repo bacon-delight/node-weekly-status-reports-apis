@@ -86,4 +86,5 @@ This is an Open Source application and we take no responsibility for any issues,
 Reach out to developers for feedback, queries and suggestions.
 
 * [Dipanjan De](https://dipanjande.com) (Developer)
+* Abhimanyu Pandey (Developer)
 * Satinder Singh Butter (Project Manager)
