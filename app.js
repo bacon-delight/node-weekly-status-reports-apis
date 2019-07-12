@@ -12,7 +12,7 @@ app.use(cors());
 //Deploy Port
 const PORT = process.env.PORT || 4001;
 
-mongoose.connect('mongodb+srv://bacon:bacon@cluster0-ysvqj.mongodb.net/philips-wsr?retryWrites=true', {
+mongoose.connect('mongodb+srv://bacon:bacon@cluster0-ysvqj.mongodb.net/weekly-status-reports?retryWrites=true', {
 	useNewUrlParser: true
 });
 
