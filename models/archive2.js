@@ -10,7 +10,6 @@ const archive2Schema = new Schema({
 	secondary: String,
 	clientRegion: String,
 	client: String,
-	projectProduct: String,
 	projectName: String,
 	projectActivity: String,
 	status: String,
@@ -25,9 +24,6 @@ const archive2Schema = new Schema({
 	date7: String,
 	date8: String,
 	date9: String,
-	timeEntry: String,
-	opemEms: String,
-	totalBilled: String,
 	comments: String
 });
 

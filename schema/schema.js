@@ -57,7 +57,6 @@ const Archive2Type = new GraphQLObjectType({
 		secondary: {type: GraphQLString},
 		clientRegion: {type: GraphQLString},
 		client: {type: GraphQLString},
-		projectProduct: {type: GraphQLString},
 		projectName: {type: GraphQLString},
 		projectActivity: {type: GraphQLString},
 		status: {type: GraphQLString},
@@ -72,9 +71,6 @@ const Archive2Type = new GraphQLObjectType({
 		date7: {type: GraphQLString},
 		date8: {type: GraphQLString},
 		date9: {type: GraphQLString},
-		timeEntry: {type: GraphQLString},
-		opemEms: {type: GraphQLString},
-		totalBilled: {type: GraphQLString},
 		comments: {type: GraphQLString}
 	})
 });
@@ -252,9 +248,6 @@ const Mutation = new GraphQLObjectType({
 				client: {
 					type: GraphQLString
 				},
-				projectProduct: {
-					type: GraphQLString
-				},
 				projectName: {
 					type: GraphQLString
 				},
@@ -297,15 +290,6 @@ const Mutation = new GraphQLObjectType({
 				date9: {
 					type: GraphQLString
 				},
-				timeEntry: {
-					type: GraphQLString
-				},
-				opemEms: {
-					type: GraphQLString
-				},
-				totalBilled: {
-					type: GraphQLString
-				},
 				comments: {
 					type: GraphQLString
 				}
@@ -320,7 +304,6 @@ const Mutation = new GraphQLObjectType({
 					secondary: args.secondary,
 					clientRegion: args.clientRegion,
 					client: args.client,
-					projectProduct: args.projectProduct,
 					projectName: args.projectName,
 					projectActivity: args.projectActivity,
 					status: args.status,
@@ -335,9 +318,6 @@ const Mutation = new GraphQLObjectType({
 					date7: args.date7,
 					date8: args.date8,
 					date9: args.date9,
-					timeEntry: args.timeEntry,
-					opemEms: args.opemEms,
-					totalBilled: args.totalBilled,
 					comments: args.comments
 				});
 				return archive2.save();
